@@ -24,7 +24,7 @@
       <p>1. 掌握 HTML5 和 CSS3 新特性进行结构样式优化</p>
       <p>2. 掌握 Vue、Vue CLI、Vuex、Vue-Router、VueUse,能够运用 Vue 全家桶进行组件化开发</p>
       <p>3. 掌握 Vu3 的新特性新语法，可以使用 Vue3 新语法新特性进行各项组件开发</p>
-      <p>4. 熟悉 ES6新特性，熟悉使用 JavaScript 对 DOM 的操作，配合 Vue 框架进行高效率开发</p>
+      <p>4. 熟悉 ES6新特性,熟悉使用 JavaScript 对 DOM 的操作，配合 Vue 框架进行高效率开发</p>
       <p>5. 熟悉 Less、Sass 预编译语言，提升代码的灵活性和开发效率</p>
       <p>6. 熟悉 Element-UI、Vant、等框架进行页面布局和响应式开发</p>
       <p>7. 熟悉 Git 代码版本管理工具，使用 npm 管理项目所有依赖包</p>
