@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="my">我的简历</div>
     <el-card class="box-card" shadow="always">
       <el-divider content-position="left">姓名</el-divider>
       <span class="text">左羿宽</span>
@@ -29,6 +30,13 @@ export default {
 </script>
 
 <style>
+  .my {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
   .item {
     padding: 18px 0;
   }
