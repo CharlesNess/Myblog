@@ -43,13 +43,55 @@
       <p>5.优化产品界面、逻辑，确保用户的高体验</p>
       </div>
     </el-card>
+    <div class="chart" ref="chartDom"></div>
   </div>
 </template>
 
 <script>
+import * as echarts from 'echarts'
+import 'echarts-wordcloud'
 export default {
   mounted() {
      document.documentElement.scrollTop = 0
+     const chart = echarts.init(this.$refs.chartDom)
+     const data = [{
+    name: '雷猴啊',
+    value: 100
+  }, {
+    name: '警察叔叔',
+    value: 50
+  }, {
+    name: '飞天老鼠',
+    value: 20
+  }, {
+    name: '我母鸡',
+    value: 30
+  }]
+  chart.setOption({
+    series: [{
+      type: 'wordCloud',
+      data,
+      textStyle: { // 文字样式
+        fontFamily: 'sans-serif',
+        fontWeight: 'bold',
+        color: function () { // 随机色
+          // Random color
+          return 'rgb(' + [
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160)
+          ].join(',') + ')';
+        }
+      },
+      emphasis: { // 文字选中样式
+        focus: 'self',
+        textStyle: {
+          shadowBlur: 10,
+          shadowColor: '#000'
+        }
+      }
+    }]
+  })
   },
 }
 </script>
