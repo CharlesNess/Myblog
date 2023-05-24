@@ -66,18 +66,18 @@
             <h2>About Openlayers</h2>
             <div>
               <p>通过天地图的方式引入地图</p>
-              <p>首先需要去<a href="http://lbs.tianditu.gov.cn/server/MapService.html">"http://lbs.tianditu.gov.cn/server/MapService.html"</a>申请token</p>
+              <!-- <p>首先需要去<a href="http://lbs.tianditu.gov.cn/server/MapService.html">"http://lbs.tianditu.gov.cn/server/MapService.html"</a>申请token</p> -->
               <p>将webKey替换为申请好的token</p>
-              <img src="@/assets/img1.png">
+              <!-- <img src="@/assets/img1.png"> -->
               <!-- <img src="@/assets/img2.png"> -->
             </div>
             <div>
               <p>提前声明好需要的ol元素</p>
               <p>const TileLayer = ol.layer.Tile ; const Map = ol.Map ; const WMTS = ol.source.WMTS ; const WMTSTileGrid = ol.tilegrid.WMTS;</p>
-              <img src="@/assets/img2.png">
+              <!-- <img src="@/assets/img2.png"> -->
             </div>
             <div>
-              <img src="@/assets/img3.png">
+              <!-- <img src="@/assets/img3.png"> -->
             </div>
           </div>
         </el-card>
